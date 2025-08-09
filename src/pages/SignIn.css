@@ -1,0 +1,127 @@
+.signin-container {
+  display: flex;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.signin-form {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  width: 120px;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+p {
+  color: 'white';
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.sign-btn {
+  background: #f49b23;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.or-text {
+  text-align: center;
+  margin: 20px 0 10px;
+  color: #666;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.google-btn,
+.fb-btn {
+  background: #eee;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.create-account {
+  color: #f49b23;
+  cursor: pointer;
+}
+
+.privacy-text {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #777;
+}
+
+.privacy-link {
+  text-decoration: underline;
+  color: #fdfcfa;
+  cursor: pointer;
+}
+
+.signin-image {
+  flex: 1;
+  position: relative;
+}
+
+.signin-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+.image-caption h3 {
+  font-size: 20px;
+}
+
+.image-caption p .link {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,77 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  overflow-x: hidden;
+}
+
+.footer {
+    background: #222;
+  color: white;
+  padding: 40px 20px 0; 
+  margin-top: 10px; /* to ensure footer is at the bottom */
+  width: 100vw;
+  margin-top: 170px;
+}
+
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px; /* optional for centered content */
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-section a {
+  display: block;
+  color: #aaa;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer-section a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px 0 0; /* no bottom padding */
+  border-top: 1px solid #444;
+  font-size: 14px;
+  color: #888;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.footer-bottom .footer-links {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-bottom .footer-links a {
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.footer-bottom .footer-links a:hover {
+  opacity: 1;
+}

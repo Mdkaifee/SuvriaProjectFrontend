@@ -1,0 +1,150 @@
+.cart-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.item-image {
+  width: 80px;
+  height: auto;
+  border-radius: 6px;
+  margin-right: 15px;
+}
+
+.item-details h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.price {
+  color: #d35400;
+  margin: 5px 0;
+}
+
+.qty-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.qty-control button {
+  border: none;
+  background: #eee;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.order-summary {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.gst-note {
+  font-size: 12px;
+  color: gray;
+}
+
+.promo-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.apply-link {
+  background: none;
+  border: none;
+  color: orange;
+  cursor: pointer;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.checkout-btn {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.free-shipping {
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+  margin-top: 10px;
+}
+.empty-cart {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.empty-cart-content {
+  margin-top: 30px;
+}
+
+.empty-cart-icon {
+  font-size: 60px;
+  color: #bbb;
+}
+
+.empty-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.browse-btn {
+  display: inline-block;
+  background: orange;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.browse-btn:hover {
+  background: darkorange;
+}
